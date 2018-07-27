@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+  <ion-item>
+    <ion-input type="text" [(ngModel)]="username" value="" placeholder="Nome"></ion-input>
+    
+  </ion-item>
+  <br>
+  <button ion-button full (click)="conect()">Entrar</button>
+  
+</ion-content>
